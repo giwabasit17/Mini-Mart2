@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GABI MINI-MART</title>
+    <link rel="stylesheet" href="css/homepage.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body style="background-color: #ede6e6">
+    <header>
+      <div class="logo">
+        <img src="img/logos/miini.jpeg" alt="logo" />
+        <h1>MINI-MART</h1>
+      </div>
+      <div class="search-bar">
+        <nav>
+          <ul>
+            <li><a href="Signup.html">Signup</a></li>
+            <li><a href="#company">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="search-input">
+          <input type="text" placeholder="Search products..." />
+          <button type="submit">Search</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="content">
+        <div class="carousel-wrapper" style="display: flex">
+          <p style="width: 50%">
+            Shop at Mini-Mart, your trusted online destination for household
+            items, groceries, and cutting-edge electronics. Revolutionize your
+            shopping experience with our extensive collection of kitchen
+            appliances, cleaning supplies, fresh produce, pantry staples,
+            gadgets, and home entertainment systems. Discover convenience and
+            quality products at your fingertips.
+          </p>
+          <div
+            id="myCarousel"
+            class="carousel slide"
+            data-ride="carousel"
+            style="width: 50%"
+          >
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/product/electronics.jpeg" alt="Electronics" />
+                <div class="carousel-caption">
+                  <h3>Electronics</h3>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/product/household.jpeg" alt="Household" />
+                <div class="carousel-caption">
+                  <h3>Household items</h3>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/product/grocery.jpeg" alt="Grocery" />
+                <div class="carousel-caption">
+                  <h3>Grocery</h3>
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a
+              class="left carousel-control"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="right carousel-control"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+</body>
+    </main>
+    <footer>
+      <div class="inline">
+        <div id="logos">
+          <img class="logos" src="img/logos/miini.jpeg" alt="logo" />
+          <div id="logos2">
+            <a href="https://www.instagram.com/_gabi_gramz/">
+              <img class="logos2" src="img/logos/instagram.jpeg" alt="logo" />
+            </a>
+            <a
+              href="https://www.linkedin.com/messaging/thread/2-NTNjNTNlNmMtYjcxYi00Y2VlLTk0NTktMWEwZDNjNGYyODE4XzAxMg==/"
+            >
+              <img class="logos2" src="img/logos/linked in.jpeg" alt="logo" />
+            </a>
+          </div>
+        </div>
+          <div id="contact">
+            <h3>Contact us</h3>
+            <p>oshodi isolo Mini-Mart complex</p>
+            <p>
+              <a href="tel:913-631-4011">913-631-4011</a><br /><a
+                href="mailto:giwabasit17@gmail.com"
+                >giwabasit17@gmail.com</a
+              >
+            </p>
+          </div>
+          <div id="company">
+            <h3>Company</h3>
+            <p><a href="">About Mini-Mart</a></p>
+            <p>Staff Information</p>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>

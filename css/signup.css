@@ -1,0 +1,57 @@
+body {
+  background-color: #faf9f6;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.logo pre.blinking {
+  background-color: burlywood;
+  color: goldenrod;
+  line-height: 1.2;
+  border-radius: 5px;
+  text-shadow: 1px 1px 3px #ffd700;
+  animation: blinking 1s infinite;
+  background-size: cover;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  background-color: blue;
+}
+
+.i-card {
+  grid-column: span 2;
+  background-color: white;
+}
